@@ -23,6 +23,7 @@ from .operations.low_level_calls import LowLevelCalls
 from .operations.unused_return_values import UnusedReturnValues
 from .operations.unchecked_transfer import UncheckedTransfer
 from .naming_convention.naming_convention import NamingConvention
+from .fee_detection.fee_mention import FeeMention
 from .functions.external_function import ExternalFunction
 from .statements.controlled_delegatecall import ControlledDelegateCall
 from .attributes.const_functions_asm import ConstantFunctionsAsm
