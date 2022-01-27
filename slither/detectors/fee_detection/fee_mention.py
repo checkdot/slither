@@ -10,8 +10,8 @@ class FeeMention(AbstractDetector):
 
     ARGUMENT = "fee-mention"
     HELP = "Conformity to Solidity fees detection"
-    IMPACT = DetectorClassification.HIGH
-    CONFIDENCE = DetectorClassification.HIGH
+    IMPACT = DetectorClassification.MEDIUM
+    CONFIDENCE = DetectorClassification.MEDIUM
 
     WIKI = "https://github.com/crytic/slither/wiki/Detector-Documentation#conformance-to-solidity-naming-conventions"
 
