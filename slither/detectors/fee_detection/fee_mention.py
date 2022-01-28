@@ -9,14 +9,14 @@ class FeeMention(AbstractDetector):
     """
 
     ARGUMENT = "fee-mention"
-    HELP = "Conformity to Solidity fees detection"
-    IMPACT = DetectorClassification.MEDIUM
-    CONFIDENCE = DetectorClassification.MEDIUM
+    HELP = "Fees in the contract detected"
+    IMPACT = DetectorClassification.LOW
+    CONFIDENCE = DetectorClassification.LOW
 
     WIKI = "https://github.com/crytic/slither/wiki/Detector-Documentation#conformance-to-solidity-naming-conventions"
 
-    WIKI_TITLE = "Public function that could be declared external"
-    WIKI_DESCRIPTION = "`public` functions that are never called by the contract should be declared `external` to save gas."
+    WIKI_TITLE = "Fees in the contract detected"
+    WIKI_DESCRIPTION = "Fees in the contract detected"
     WIKI_RECOMMENDATION = (
         "Remove the fees from your contract."
     )
