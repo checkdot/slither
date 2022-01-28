@@ -75,6 +75,8 @@ from .compiler_bugs.reused_base_constructor import ReusedBaseConstructor
 from .operations.missing_events_access_control import MissingEventsAccessControl
 from .operations.missing_events_arithmetic import MissingEventsArithmetic
 from .functions.modifier import ModifierDefaultDetection
+from .functions.mint_dangerous_token import MintDangerousToken
+from .functions.mint_token import MintToken
 from .variables.predeclaration_usage_local import PredeclarationUsageLocal
 from .statements.unary import IncorrectUnaryExpressionDetection
 from .operations.missing_zero_address_validation import MissingZeroAddressValidation
