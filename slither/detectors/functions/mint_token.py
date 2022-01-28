@@ -99,7 +99,7 @@ contract UnprotectedMint{
 Bob calls `mint`. As a result he mint amount token to him wallet."""
     # endregion wiki_exploit_scenario
 
-    WIKI_RECOMMENDATION = "No recommendation"
+    WIKI_RECOMMENDATION = "Remove the mint from your contract"
 
     def _detect(self) -> List[Output]:
         """"""

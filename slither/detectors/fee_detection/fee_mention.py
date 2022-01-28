@@ -18,7 +18,7 @@ class FeeMention(AbstractDetector):
     WIKI_TITLE = "Public function that could be declared external"
     WIKI_DESCRIPTION = "`public` functions that are never called by the contract should be declared `external` to save gas."
     WIKI_RECOMMENDATION = (
-        "Use the `external` attribute for functions never called from the contract."
+        "Remove the fees from your contract."
     )
     WIKI_EXPLOIT_SCENARIO = "Emit transaction"
 
