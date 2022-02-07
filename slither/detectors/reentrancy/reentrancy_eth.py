@@ -17,7 +17,7 @@ FindingValue = namedtuple("FindingValue", ["variable", "node", "nodes"])
 class ReentrancyEth(Reentrancy):
     ARGUMENT = "reentrancy-eth"
     HELP = "Reentrancy vulnerabilities (theft of ethers)"
-    IMPACT = DetectorClassification.HIGH
+    IMPACT = DetectorClassification.MEDIUM
     CONFIDENCE = DetectorClassification.MEDIUM
 
     WIKI = (
